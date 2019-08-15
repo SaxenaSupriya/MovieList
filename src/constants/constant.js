@@ -1,0 +1,9 @@
+export const GET_NOW_PLAYING_API_URL = 'https://api.themoviedb.org/3/movie/now_playing?api_key=b20d67b18f62430a83d629036a57c16c&language=en-US&page=1';
+export const GENRE_API_URL = 'https://api.themoviedb.org/3/genre/movie/list?api_key=b20d67b18f62430a83d629036a57c16c&language=en-US';
+export const IMAGE_API_URL = 'https://image.tmdb.org/t/p/w185/';
+export const GET_NOW_PLAYING_API_URL_REQUEST = 'GET_NOW_PLAYING_API_URL_REQUEST';
+export const GENRE_API_REQUEST = 'GENRE_API_REQUEST';
+export const API_REQUEST = 'API_REQUEST';
+export const API_ERROR = 'API_ERROR';
+export const GENRE_SELECT = 'GENRE_SELECT';
+export const RATING_SELECT = 'RATING_SELECT';
